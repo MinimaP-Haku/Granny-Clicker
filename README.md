@@ -4,15 +4,15 @@
 ![Status](https://img.shields.io/badge/Status-Release-orange)
 
 ## 🎮 What is the game about?
-**Granny Clicker** is an addictive, dynamic *incremental/clicker* game with a unique thriller twist based on the popular character Granny[span_0](start_span)[span_0](end_span). Your goal is to click and collect currency (Granny Coins), upgrade your earnings, and avoid the terrifying jumpscare[span_1](start_span)[span_1](end_span).
+**Granny Clicker** is an addictive, dynamic *incremental/clicker* game with a unique thriller twist based on the popular character Granny. Your goal is to click and collect currency (Granny Coins), upgrade your earnings, and avoid the terrifying jumpscare.
 
 **Core Mechanics:**
-* **Clicking & Upgrades:** Earn coins and purchase multipliers (e.g., 2x more coins per click) and Auto-Clickers[span_2](start_span)[span_2](end_span).
-* **Time Pressure (Jumpscare):** Granny has a hidden timer[span_3](start_span)[span_3](end_span). If you are not careful and the timer reaches zero, you will get caught and lose a portion of your collected coins[span_4](start_span)[span_4](end_span).
-* **Progression (Coming soon in 1.1):** Player profiles, tiers with ranking points, shop modules, and encrypted password-protected save systems[span_5](start_span)[span_5](end_span).
+* **Clicking & Upgrades:** Earn coins and purchase multipliers (e.g., 2x more coins per click) and Auto-Clickers.
+* **Time Pressure (Jumpscare):** Granny has a hidden timer. If you are not careful and the timer reaches zero, you will get caught and lose a portion of your collected coins.
+* **Progression (Coming soon in 1.1):** Player profiles, tiers with ranking points, shop modules, and encrypted password-protected save systems.
 
 ## 📂 Project Structure
-The project is built using a clean web stack (HTML5, CSS3, JS) extended with Windows automation scripts[span_6](start_span)[span_6](end_span). The structure is designed to easily compile the game into a standalone mobile app (.apk) or a PC game (.exe)[span_7](start_span)[span_7](end_span).
+The project is built using a clean web stack (HTML5, CSS3, JS) extended with Windows automation scripts. The structure is designed to easily compile the game into a standalone mobile app (.apk), a PC game (.exe) or other platforms.
 
 ```text
 📁 Granny-Clicker/
