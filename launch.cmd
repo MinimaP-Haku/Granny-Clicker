@@ -35,6 +35,6 @@ if exist "web\title\title.html" (
     start "" "web\title\title.html"
     exit
 ) else (
-    start "" "errors\M-0.vbs"
+    start "" "errors\G-0.vbs"
     exit
 )
