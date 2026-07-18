@@ -1,8 +1,7 @@
 # ![Game Logo](assets/textures/granny_clicker_logo.webp) Granny Clicker
 
-![Granny Clicker v1.0](https://via.placeholder.com/800x120/00FFFF/000000?text=Granny+Clicker+v1.0)
-![Version Status](https://via.placeholder.com/800x80/FF8C00/000000?text=STATUS:+RELEASE)
-*(Above are the placeholders for your cyan version 1.0 graphic and your orange version name/status graphic)*
+![Version](https://img.shields.io/badge/Version-1.0.0--Release-cyan)
+![Status](https://img.shields.io/badge/Status-Release-orange)
 
 ## 🎮 What is the game about?
 **Granny Clicker** is an addictive, dynamic *incremental/clicker* game with a unique thriller twist based on the popular character Granny[span_0](start_span)[span_0](end_span). Your goal is to click and collect currency (Granny Coins), upgrade your earnings, and avoid the terrifying jumpscare[span_1](start_span)[span_1](end_span).
