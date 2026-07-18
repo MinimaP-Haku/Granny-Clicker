@@ -1,4 +1,4 @@
-{
+window.enLanguageData = {
     "buy_button": "Buy",
     "category_upgrades": "Upgrades",
     "changelog_header": "Changelog",
@@ -52,4 +52,4 @@
     "vol_clicks": "Click & UI Volume",
     "vol_music": "Music Volume",
     "vol_voices": "Voices Volume"
-}
+};
