@@ -11,12 +11,15 @@ on:
 jobs:
   move-assets:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: android
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Create target directory structure
         run: mkdir -p webview/assets/html/assets/assets
@@ -36,6 +39,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
       
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add webview/assets/html/assets/assets/
-          git diff --quiet --cached || (git commit -m "chore: move assets to webview directory" && git push)
+          git diff --quiet --cached || (git commit -m "chore: move assets to webview directory" && git push origin android)
+      
