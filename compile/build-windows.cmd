@@ -14,7 +14,7 @@ where 7z >nul 2>&1 && (
 )
 
 echo Place nw.exe from the NW.js runtime into this folder (nw.exe from matching version & arch).
-if not exist nw.exe (
+if not exist ..\library\nw.js\nw.exe (
   echo nw.exe not found. Please download appropriate NW.js runtime and copy nw.exe here.
   pause
   exit /b 1
