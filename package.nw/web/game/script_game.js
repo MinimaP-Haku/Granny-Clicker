@@ -67,7 +67,7 @@ function initLoopingAudio() {
         musicAudio.volume = volumes.music;
     }
     if (!ambientAudio) {
-        ambientAudio = new Audio('../../assets/sounds/bg/main.wav');
+        ambientAudio = new Audio(window.getAsset('sounds/bg/main.wav'));
         ambientAudio.loop = true;
         ambientAudio.volume = volumes.ambient;
     }
