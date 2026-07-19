@@ -96,7 +96,7 @@ function playSound(path, channel = 'clicks') {
 }
 
 function playUiSound(name) {
-    playSound(`../../assets/sounds/ui/${soundPack}/${name}.wav`, 'clicks');
+    playSound(window.getAsset(`sounds/ui/${soundPack}/${name}.wav`), 'clicks');
 }
 
 function formatNumber(num, useFullNames = false) {
