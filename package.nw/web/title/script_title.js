@@ -77,7 +77,7 @@ function setRandomBackground() {
     const chosenFile = files[Math.floor(Math.random() * files.length)];
     
     const bgElement = document.getElementById('bg');
-    bgElement.style.backgroundImage = `url('../../assets/textures/backgrounds/${chosenArea}/${chosenFile}.webp')`;
+    bgElement.style.backgroundImage = `url('${window.getAsset('textures/backgrounds/' + chosenArea + '/' + chosenFile + '.webp')}')`;
 }
 
 function playClickSound() {
